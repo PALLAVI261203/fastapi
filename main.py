@@ -4,4 +4,5 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message":"Updated a Live!"}
+    return {"message": "✅ Auto-deploy is working from GitHub!"}
+
